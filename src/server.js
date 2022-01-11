@@ -14,5 +14,5 @@ const router = AdminJSExpress.buildRouter(adminJS);
 
 app.use(adminJS.options.rootPath, router);
 app.listen(5001, () => {
-  console.log('AdminJS is under http://localhost:5001/admin');
+  console.log('AdminJS is runnig in http://localhost:5001/admin');
 });
